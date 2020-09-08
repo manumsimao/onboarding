@@ -1,0 +1,13 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+    ul, ol, li {
+        list-style: none;
+    }
+
+
+    hr{
+        color: black;
+        width: fit-content;
+    }
