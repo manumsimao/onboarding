@@ -1,0 +1,98 @@
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+.flex-justify-start{
+    justify-content: flex-start;
+}
+.flex-justify-end{
+    justify-content: flex-end;
+}
+.flex-justify-center{
+    justify-content: center;
+}
+.flex-justify-between{
+    justify-content: space-between;
+}
+.flex-justify-around{
+    justify-content: space-around;
+}
+.flex-justify-evenly{
+    justify-content: space-evenly;
+}
+.flex-align-items-start{
+    align-items: flex-start;
+}
+.flex-align-items-end{
+    align-items: flex-end;
+}
+.flex-align-items-center{
+    align-items: center;
+}
+.flex-align-items-baseline{
+    align-items: baseline;
+}
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: plum;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.container2{
+    max-width: 700px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.container3{
+    height: 100px;
+    max-width: 700px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.container-big{
+    margin: 4 auto;
+	border: 1px solid #ccc;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
