@@ -1,0 +1,57 @@
+
+a:visited{
+    color: green;
+    font-weight: bold;  
+}
+.box{
+    width:200px; 
+    height:100px;
+    border:5px solid red;
+    padding:10px; 
+    background:#3ab87a;		
+    margin: 10px;					
+}
+.box:hover{
+    width: 250px;
+    border:5px solid green;
+    background:red;	
+    color: white;
+}
+.hov:hover{
+    font-size: 2rem;
+    color: purple;
+}
+input[type="text"]:focus{
+    background-color: purple;
+}
+input[type="button"]:focus{
+    background-color: red;
+}
+textarea:focus{
+    background-color: blue;
+}
+textarea:hover{
+    background-color: steelblue;
+}
+option:checked{
+    background-color: violet;
+}
+input:checked{
+    height: 50px;
+    width: 50px;
+}
+.mother{
+    border: rebeccapurple 2px solid;
+    width: fit-content;
+}
+p:first-child{
+    font-weight: bold;
+    color: turquoise;
+}
+p:last-child{
+    font-weight: bold;
+    color:blueviolet
+}
+h1:not(.not){
+    color:gray;
+}
