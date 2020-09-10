@@ -17,19 +17,29 @@
         }
         span.lt600 {
             display: inline-block;
+            color: #f9c
         }
     }
     
-    /* min-width */
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 900px) and (max-width: 1100px){
         .dois {
             background: #F90;
         }
         span.gt900 {
             display: inline-block;
+            color: #F90
         }
     }
-    
+        /* min-width */
+        @media screen and (min-width: 1200px) {
+            .quatro {
+                background:  rgb(176, 122, 197);
+            }
+            span.gt900 {
+                display: inline-block;
+                color: rgb(176, 122, 197)
+            }
+        }
     /* min-width & max-width */
     @media screen and (min-width: 600px) and (max-width: 900px) {
         .tres {
@@ -37,12 +47,7 @@
         }
         span.bt600-900 {
             display: inline-block;
+            color: #9CF
         }
     }
     
-    /* max device width */
-    @media screen and (max-device-width: 480px) {
-        .iphone {
-            background: #ccc;
-        }
-    }
