@@ -30,5 +30,9 @@ div{
 }
 .s5::after{
     content: "goodbye";
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
     color:white;
 }
