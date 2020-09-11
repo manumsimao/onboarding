@@ -1,0 +1,53 @@
+.parent { margin: 20px;}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 20px;
+    margin: 10px;
+} 
+.box1{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 2s;
+    transition-timing-function: steps(3, jump-start);
+}
+
+.box2{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 2s;
+    transition-timing-function: steps(3, jump-end);
+}
+.box3{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+}
+.box3emeio{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 3s;
+}
+
+.box4{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+.box5{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+
+.box6{
+    transition-property: width height background-color font-size  color;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+}
+    
+.box:hover{
+    background-color: blue;
+    color: yellow;
+    font-size: 18px;
+}
