@@ -24,3 +24,11 @@ div{
 .s5{
     box-shadow: inset -30px -30px 3px -10px purple;
 }
+.s1::before{
+    content: "hello";
+    font-size: 2rem;
+}
+.s5::after{
+    content: "goodbye";
+    color:white;
+}
