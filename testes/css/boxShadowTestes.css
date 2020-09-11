@@ -1,0 +1,26 @@
+div{
+    box-sizing: border-box;
+    width:200px; 
+    height:100px;
+    border:2px solid black;
+    padding:10px; 
+    background:plum;	
+    margin: 100px;
+}
+
+.s1{
+    box-shadow: 30px 30px 3px 10px purple;
+}
+
+.s2{
+    box-shadow: 10px 0 ;
+}
+.s3{
+    box-shadow: inset 30px 30px 3px 10px purple;
+}
+.s4{
+    box-shadow: -30px -30px 3px -10px purple;
+}
+.s5{
+    box-shadow: inset -30px -30px 3px -10px purple;
+}
