@@ -1,0 +1,19 @@
+.comFloatLeft{
+    float: left;
+}
+
+.comFloatRight{
+    float: right;
+}
+.comClearRight{
+    clear: right;
+    color: red;
+}
+.comClearLeft{
+    clear: left;
+    color: green;
+}
+.comClearBoth{
+    clear: both;
+    color: blue;
+}
