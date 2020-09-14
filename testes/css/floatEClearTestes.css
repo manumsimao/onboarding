@@ -1,5 +1,6 @@
 .comFloatLeft{
     float: left;
+    /* shape-outside: circle(50%); */
 }
 
 .comFloatRight{
