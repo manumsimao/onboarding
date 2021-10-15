@@ -1,20 +1,22 @@
-.comFloatLeft{
-    float: left;
-    /* shape-outside: circle(50%); */
+.comFloatLeft {
+	float: left;
 }
 
-.comFloatRight{
-    float: right;
+.comFloatRight {
+	float: right;
 }
-.comClearRight{
-    clear: right;
-    color: red;
+
+.comClearRight {
+	clear: right;
+	color: red;
 }
-.comClearLeft{
-    clear: left;
-    color: green;
+
+.comClearLeft {
+	clear: left;
+	color: green;
 }
-.comClearBoth{
-    clear: both;
-    color: blue;
+
+.comClearBoth {
+	clear: both;
+	color: blue;
 }

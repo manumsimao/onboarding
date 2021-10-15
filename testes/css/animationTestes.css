@@ -1,153 +1,169 @@
-.parent { margin: 20px;}
+.parent {
+	margin: 20px;
+}
+
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    font-size: 20px;
-    margin: 10px;
-} 
-
-.box1{
-    animation-name: primeira;
-    animation-duration: 10s;
-    animation-timing-function: ease-in;
-    animation-delay: 1s;
-    animation-direction: backwards;
-    animation-iteration-count: 2;
-    animation-fill-mode: alternate;
-    animation-play-state: running;
-}
-@keyframes primeira{
-    from{
-        background-color: red;
-        width: 100px;
-        height: 100px;
-    }
-
-    to{
-        background-color: purple;
-        width: 150px;
-        height: 10px;
-    }
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	font-size: 20px;
+	margin: 10px;
 }
 
-.box2{
-    animation: segunda 5s ease-in alternate infinite;
-}
-h1{
-    animation: terceira 5s 10;
-    animation-timing-function: linear;
-    animation-direction: reverse;
-}
-
-@keyframes segunda{
-    from{
-        background-color: red;
-        width: 100px;
-        height: 100px;
-    }
-    15%{
-        background-color: orange;
-        width: 110px;
-        height: 110px;
-        border-radius: 10%;
-    }
-    30%{
-        background-color: yellow;
-        width: 120px;
-        height: 120px;
-        border-radius: 20%;
-    }
-    45%{
-        background-color: green;
-        width: 130px;
-        height: 130px;
-        border-radius: 30%;
-    }
-    60%{
-        background-color: blue;
-        width: 140px;
-        height: 140px;
-        border-radius: 40%;
-    }
-    75%{
-        background-color: indigo;
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
-    to{
-            background-color: violet;
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-    }
+.box1 {
+	animation-name: primeira;
+	animation-duration: 10s;
+	animation-timing-function: ease-in;
+	animation-delay: 1s;
+	animation-direction: backwards;
+	animation-iteration-count: 2;
+	animation-fill-mode: alternate;
+	animation-play-state: running;
 }
 
-    @keyframes terceira{
-        from{
-            color: red;
-            font-size: 100px;
-           
-        }
-        15%{
-            color: orange;
-            font-size:  110px;
-        }
-        30%{
-            color: yellow;
-            font-size:  120px;
-        }
-        45%{
-            color: green;
-            font-size:  130px;
-        }
-        60%{
-            color: blue;
-            font-size:  140px;
-        
-        }
-        75%{
-            color: indigo;
-            font-size:  150px;
-           
-        }
-        to{
-                color: violet;
-                font-size:  160px;
+@keyframes primeira {
+	from {
+		background-color: red;
+		width: 100px;
+		height: 100px;
+	}
+
+	to {
+		background-color: purple;
+		width: 150px;
+		height: 10px;
+	}
+}
+
+.box2 {
+	animation: segunda 5s ease-in alternate infinite;
+}
+
+h1 {
+	animation: terceira 5s 10;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+}
+
+@keyframes segunda {
+	from {
+		background-color: red;
+		width: 100px;
+		height: 100px;
+	}
+
+	15% {
+		background-color: orange;
+		width: 110px;
+		height: 110px;
+		border-radius: 10%;
+	}
+
+	30% {
+		background-color: yellow;
+		width: 120px;
+		height: 120px;
+		border-radius: 20%;
+	}
+
+	45% {
+		background-color: green;
+		width: 130px;
+		height: 130px;
+		border-radius: 30%;
+	}
+
+	60% {
+		background-color: blue;
+		width: 140px;
+		height: 140px;
+		border-radius: 40%;
+	}
+
+	75% {
+		background-color: indigo;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+
+	to {
+		background-color: violet;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+	}
+}
+
+@keyframes terceira {
+	from {
+		color: red;
+		font-size: 100px;
+	}
+
+	15% {
+		color: orange;
+		font-size: 110px;
+	}
+
+	30% {
+		color: yellow;
+		font-size: 120px;
+	}
+
+	45% {
+		color: green;
+		font-size: 130px;
+	}
+
+	60% {
+		color: blue;
+		font-size: 140px;
+	}
+
+	75% {
+		color: indigo;
+		font-size: 150px;
+	}
+
+	to {
+		color: violet;
+		font-size: 160px;
+	}
+}
+
+.box3 {
+	background-color: white;
+	color: white;
+	animation: quarta 30s;
+}
+
+@keyframes quarta {
+	from {
+		background-color: white;
+		color: white;
+	}
+
+	to {
+		background-color: black;
+		color: white;
+	}
+}
+
+.box4 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: blueviolet;
+	animation: quinta 3s infinite alternate backwards;
+}
+
+@keyframes quinta {
+	from {
+		z-index: -1;
+	}
     
-        }
-    }
-    .box3{
-        background-color: white;
-        color: white;
-        animation: quarta 30s;
-    } 
-
-    @keyframes quarta{
-        from {
-            background-color: white;
-            color: white;
-        }
-        to{
-            background-color: black;
-            color: white;
-        }
-    }
-    .box4{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        background-color: blueviolet;
-        animation: quinta 3s infinite alternate backwards;
-    }
-
-    @keyframes quinta{
-        from{
-            z-index: -1;
-        }
-        to{
-            z-index: 5;
-        }
-    }
-
+	to {
+		z-index: 5;
+	}
+}

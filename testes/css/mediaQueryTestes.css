@@ -1,53 +1,55 @@
+.caixa {
+	border: solid 1px #666;
+	padding: 5px 10px;
+	margin: 40px;
+}
 
-    .caixa {
-        border: solid 1px #666;
-        padding: 5px 10px;
-        margin: 40px;
-    }
+.area-visivel span {
+	color: #666;
+	display: none;
+}
+
+/* max-width  */
+@media screen and (max-width: 600px) {
+	.um {
+		background: #f9c;
+	}
+
+	span.lt600 {
+		display: inline-block;
+		color: #f9c;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+	.dois {
+		background: #f90;
+	}
+
+	span.gt900 {
+		display: inline-block;
+		color: #f90;
+	}
+}
+/* min-width */
+@media screen and (min-width: 1200px) {
+	.quatro {
+		background: rgb(176, 122, 197);
+	}
+
+	span.gt900 {
+		display: inline-block;
+		color: rgb(176, 122, 197);
+	}
+}
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	.tres {
+		background: #9cf;
+	}
     
-    .area-visivel span {
-        color: #666;
-        display: none;
-    }
-    
-    /* max-width  */
-    @media screen and (max-width: 600px) {
-        .um {
-            background: #F9C;
-        }
-        span.lt600 {
-            display: inline-block;
-            color: #f9c
-        }
-    }
-    
-    @media screen and (min-width: 900px) and (max-width: 1100px){
-        .dois {
-            background: #F90;
-        }
-        span.gt900 {
-            display: inline-block;
-            color: #F90
-        }
-    }
-        /* min-width */
-        @media screen and (min-width: 1200px) {
-            .quatro {
-                background:  rgb(176, 122, 197);
-            }
-            span.gt900 {
-                display: inline-block;
-                color: rgb(176, 122, 197)
-            }
-        }
-    /* min-width & max-width */
-    @media screen and (min-width: 600px) and (max-width: 900px) {
-        .tres {
-            background: #9CF;
-        }
-        span.bt600-900 {
-            display: inline-block;
-            color: #9CF
-        }
-    }
-    
+	span.bt600-900 {
+		display: inline-block;
+		color: #9cf;
+	}
+}

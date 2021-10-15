@@ -2,20 +2,23 @@ div {
 	margin: 5px;
 	background: plum;
 	text-align: center;
-    height: 100px;
-    width: 100px;
-    border:1px solid black;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
 }
 
-.t1{
-    transform: rotate(45deg);
+.t1 {
+	transform: rotate(45deg);
 }
-.t2{
-    transform: translate(100px, 300px);
+
+.t2 {
+	transform: translate(100px, 300px);
 }
-.t3{
+
+.t3 {
+	
     transform: scale(2);
 }
-.t4{
-    transform: translate(100px, 300px) scale(2,3);
+.t4 {
+	transform: translate(100px, 300px) scale(2, 3);
 }

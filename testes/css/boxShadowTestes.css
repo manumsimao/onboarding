@@ -1,38 +1,43 @@
-div{
-    box-sizing: border-box;
-    width:200px; 
-    height:100px;
-    border:2px solid black;
-    padding:10px; 
-    background:plum;	
-    margin: 100px;
+div {
+	box-sizing: border-box;
+	width: 200px;
+	height: 100px;
+	border: 2px solid black;
+	padding: 10px;
+	background: plum;
+	margin: 100px;
 }
 
-.s1{
-    box-shadow: 30px 30px 3px 10px purple;
+.s1 {
+	box-shadow: 30px 30px 3px 10px purple;
 }
 
-.s2{
-    box-shadow: 10px 0 ;
+.s2 {
+	box-shadow: 10px 0;
 }
-.s3{
-    box-shadow: inset 30px 30px 3px 10px purple;
+
+.s3 {
+	box-shadow: inset 30px 30px 3px 10px purple;
 }
-.s4{
-    box-shadow: -30px -30px 3px -10px purple;
+
+.s4 {
+	box-shadow: -30px -30px 3px -10px purple;
 }
-.s5{
-    box-shadow: inset -30px -30px 3px -10px purple;
+
+.s5 {
+	box-shadow: inset -30px -30px 3px -10px purple;
 }
-.s1::before{
-    content: "hello";
-    font-size: 2rem;
+
+.s1::before {
+	content: "hello";
+	font-size: 2rem;
 }
-.s5::after{
-    content: "goodbye";
-    display: block;
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    color:white;
+
+.s5::after {
+	content: "goodbye";
+	display: block;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	color: white;
 }

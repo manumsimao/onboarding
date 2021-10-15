@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>
-        Exemplo de media query
-    </title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/mediaQueryTestes.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Exemplo de media query</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/mediaQueryTestes.css" />
+	</head>
+	<body>
+		<div class="caixa quatro">Esta caixa ficará roxa se a área de visão for >= 1200px</div>
 
-	<div class="caixa quatro">Esta caixa ficará roxa se a
-    área de visão for >= 1200px</div>
+		<div class="caixa dois">Esta caixa ficará laranja se a área de visão for entre 900px e 1100px</div>
 
-    <div class="caixa dois">Esta caixa ficará laranja se a
-        área de visão for  entre  900px e 1100px</div>
+		<div class="caixa tres">Esta caixa ficará azul se a área de visão estiver entre 600px e 800px</div>
 
-	<div class="caixa tres">Esta caixa ficará azul se a área
-    de visão estiver entre 600px e 800px</div>
-    
-    <div class="caixa um">Esta caixa ficará rosa se a área de
-        visão for inferior a 600px</div>
+		<div class="caixa um">Esta caixa ficará rosa se a área de visão for inferior a 600px</div>
 
-	<p class="area-visivel"><strong>Sua área de visão
-	atual é: </strong> <span class="lt600">menor que
-	600px</span> <span class="bt600-900">entre 600 -
-	900px</span> <span class="gt900">maior que 900px</span></p>
-
-</body>
+		<p class="area-visivel">
+			<strong>Sua área de visão atual é: </strong> <span class="lt600">menor que 600px</span> <span class="bt600-900">entre 600 - 900px</span> <span class="gt900">maior que 900px</span>
+		</p>
+	</body>
 </html>
